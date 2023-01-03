@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Lora:ital@1&display=swap');
+body {
+    font-family: 'Chivo Mono', monospace;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #fff;
+    background: rgba(0, 0, 0, 1);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Chivo Mono', monospace;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 43px;
+}
+
+btn {
+    padding: 8px 20px 8px 20px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    background: rgba(0, 0, 0, 1);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    gap: 10px;
+}
+
+btn:hover {
+    cursor: pointer;
+    transition: 0.8s;
+    background: #FFC239;
+}
+
+button:hover {
+    cursor: pointer;
+    transition: 0.8s;
+    background: #FFC239;
+}
+
+.container {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url(../images/first-bg.jpg) center center/cover no-repeat;
+    height: 100vh;
+}
+
+.header-logo {
+    margin-left: 400px;
+    padding-top: 12px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 480;
+    line-height: 22px;
+    padding-top: 18px;
+}
+
+h1 {
+    font-family: 'Chivo Mono', monospace;
+    padding-top: 189px;
+    font-size: 61px;
+    font-weight: 400;
+    line-height: 73px;
+}
+
+.header__text {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.header__btn {
+    width: 265px;
+    height: 48px;
+    gap: 10px;
+    background: #000;
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, 1);
+}
+
+.second-section__title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 37px;
+}
+
+.second-section__subtitle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.second-section__first-block {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 39px;
+}
+
+.first-block__content {
+    padding-top: 104px;
+    margin-left: 75px;
+}
+
+.second-section__second-block {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.second-block__content {
+    padding-top: 104px;
+    margin-right: 75px;
+}
+
+.second-section__third-block {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.third-block__content {
+    padding-top: 104px;
+    margin-left: 61px;
+}
+
+.second-section__fourth-block {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.fourth-block__content {
+    padding-top: 104px;
+    margin-right: 31px;
+}
+
+.third-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contacts-title {
+    text-align: center;
+    margin-top: 64px;
+    padding-bottom: 64px;
+}
+
+.contacts-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contacts-input {
+    border-bottom: 1px solid #fff;
+    display: block;
+    width: 448px;
+}
+
+.contacts-social__whatsapp {
+    margin-top: -48px;
+    padding-left: 50px;
+}
+
+.contacts-social__instagram {
+    margin-top: -48px;
+    padding-left: 50px;
+}
+
+.contacts-social__gmail {
+    margin-top: -48px;
+    padding-left: 50px;
+}
+
+.pantera-img {
+    position: absolute;
+    right: 0;
+}
+
+.footer .container {
+    background: url(../images/footer-bg.jpg) center center/cover no-repeat;
+    width: 1518px;
+    height: 100vh;
+    top: 4400px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    width: 208px;
+    height: 1px;
+    background: rgba(217, 217, 217, 1);
+    margin-left: 9px;
+}
+
+.footer-content {
+    padding-top: 150px;
+    margin-left: 240px;
+}
+
+.footer-contacts {
+    padding-top: 190px;
+    margin-right: 140px;
+}
+
+.footer-info {
+    display: grid;
+}
